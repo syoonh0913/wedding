@@ -269,7 +269,7 @@ function initStory(storyImages) {
 
   const div = document.createElement('div');
   div.className = 'story__photo-item';
-  div.innerHTML = `<img src="${src}" alt="스토리 사진" loading="eager">`;
+  div.innerHTML = `<img src="${src}" alt="스토리 사진" loading="lazy">`;
 
   div.addEventListener('click', () => openPhotoModal(storyImages, 0));
   container.appendChild(div);

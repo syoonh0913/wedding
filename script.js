@@ -129,7 +129,8 @@
   function initHero() {
     $('#heroPhoto').src = 'images/hero/1.jpg';
     $('#heroNames').textContent = `${CONFIG.groom.name}  ·  ${CONFIG.bride.name}`;
-    $('#heroDate').textContent = formatDate(CONFIG.wedding.date, CONFIG.wedding.time);
+    const formattedDate = formatDate(CONFIG.wedding.date, CONFIG.wedding.time);
+    $('#heroDate').innerHTML = formattedDate.replace('요일 ', '요일<br>');
     $('#heroVenue').textContent = CONFIG.wedding.venue;
   }
 

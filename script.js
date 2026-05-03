@@ -181,8 +181,8 @@
     const grid = $('#calendarGrid');
 
     const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
-      'July', 'August', 'September', 'October', 'November', 'December'];
-    grid.innerHTML = `<div class="calendar__header">${monthNames[month]} ${year}</div>`;
+      'July', 'August', '9월', 'October', 'November', 'December'];
+    grid.innerHTML = `<div class="calendar__header">${year}년 ${monthNames[month]}</div>`;
 
     // Weekdays
     const weekdays = ['일', '월', '화', '수', '목', '금', '토'];

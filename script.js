@@ -587,7 +587,7 @@ function initStory(storyImages) {
       loadImagesFromFolder('gallery')
     ]);
 
-    //initStory(storyImages);
+    initStory(storyImages);
     initGallery(galleryImages);
 
     $('#mainContent').style.opacity = '1';

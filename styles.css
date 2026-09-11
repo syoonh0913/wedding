@@ -283,7 +283,7 @@ a {
 }
 
 .hero__venue {
-  font-size: 1..5rem;
+  font-size: 1.5rem;
   font-weight: 300;
   color: var(--color-text-light);
   letter-spacing: 1px;
